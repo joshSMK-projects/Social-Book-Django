@@ -180,7 +180,7 @@ def signup(request):
         email = request.POST['email']
         password = request.POST['password']
         password2 = request.POST['password2']
-        print(password)
+
         if password == password2 and password != '':
 
             if User.objects.filter(email=email).exists():
