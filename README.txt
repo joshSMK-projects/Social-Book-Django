@@ -22,7 +22,9 @@ How to run the project
         - pip install django
     5. Use the virtual environment
         - workon (name_of_environment)
-    6. Run the server
+    6. Install Pillow (allows image fields to be used)
+        - python -m pip install Pillow
+    7. Run the server
         - python manage.py runserver
 
 How to use the project
